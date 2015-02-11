@@ -12,11 +12,11 @@ module Resque
   # Methods used by various classes in Resque.
   module Helpers
     def self.extended(parent_class)
-      warn("Resque::Helpers will be gone with no replacement in Resque 2.0.0.")
+      # warn("Resque::Helpers will be gone with no replacement in Resque 2.0.0.")
     end
 
     def self.included(parent_class)
-      warn("Resque::Helpers will be gone with no replacement in Resque 2.0.0.")
+      # warn("Resque::Helpers will be gone with no replacement in Resque 2.0.0.")
     end
 
     class DecodeException < StandardError; end
